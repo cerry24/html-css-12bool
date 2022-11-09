@@ -9,7 +9,11 @@ h1{
 }
 
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
 }
 
 [class*="col-"] {
@@ -24,4 +28,8 @@ section {
 [class*="col-"] [class*="col-"] {
     background-color: rgb(67, 151, 67);
     border: 2px rgb(0, 104, 195) solid;
+}
+
+#growing-col [class*="col-"] {
+    height: 65px;
 }
