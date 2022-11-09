@@ -30,6 +30,7 @@ h2 {
     border: 2px rgb(0, 104, 195) solid;
 }
 
-#growing-col [class*="col-"] {
+#growing-col [class*="col-"],
+#offset [class*="col-"] {
     height: 65px;
 }
